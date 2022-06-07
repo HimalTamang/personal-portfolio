@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-size: 20px;
+    margin-left: 100px;
+    height: 50px;
+    line-height: 50px;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+.logo:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.navbar {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    background-color: #062557;
+    color: white;
+    /* border: 1px solid white; */
+}
+
+.navbar .nav-list .nav-item {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    height: 50px;
+    line-height: 50px;
+    /* border: 1px solid white; */
+}
+
+.navbar .nav-list .nav-item li:hover {
+    cursor: pointer;
+    color: black;
+}
+
+
+/* .navbar .social-media .s-logos li img {
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.navbar .social-media .s-logos li img:hover {
+    cursor: pointer;
+    border: 1px solid #fff;
+    background-color: #fff;
+} */
+
+.hambargermenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-right: 60px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hambargermenu .hambargerline .bar {
+    /* position: absolute; */
+    display: block;
+    display: none;
+    visibility: hidden;
+    margin: 5px;
+    width: 50px;
+    height: 6px;
+    /* border: 3px solid orange; */
+    background-color: white;
+}
+
+.social {
+    height: 50px;
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 10px;
+    /* margin: auto; */
+}
+
+.social img {
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: 1px solid orange;
+    margin: 0px 10px;
+    width: 40px;
+}
+
+
+/* landing page css property */
+
+.main {
+    background-color: #012868;
+    height: 100vh;
+    color: white;
+    position: relative;
+    display: flex;
+}
+
+.ellipse1 {
+    /* Ellipse 1 */
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1105px;
+    top: 575px;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.1);
+}
+
+.ellipse2 {
+    /* Ellipse 2 */
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1168px;
+    top: 200.61px;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.1);
+}
+
+.ellipse3 {
+    /* Ellipse 3 */
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 510px;
+    top: 160px;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.1);
+}
+
+.main .image {
+    width: 50%;
+    /* border: 1px solid yellow; */
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .image img {
+    height: 400px;
+    width: 400px;
+}
+
+.main .content {
+    /* position: absolute; */
+    width: 50%;
+    height: 100vh;
+    /* margin: 25% 0%; */
+    /* border: 1px solid red; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content h2,
+p {
+    margin: 10px;
+}
+
+.btn {
+    margin: 10px;
+    height: 40px;
+    width: 20%;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #0000FF;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+/* this css property is for contact form */
+
+.blogs {
+    height: 50vh;
+    width: 100%;
+}
+
+.blogs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 {
+    margin: 20px 100px;
+    width: 70%;
+    height: 150px;
+    text-align: center;
+}
+
+.content2 {
+    width: 20%;
+    /* border: 1px solid green; */
+}
+
+.content2 img {
+    height: 150px;
+    width: 150px;
+    border-radius: 30%;
+}
+
+
+/* skills section css property */
+
+.skills {
+    height: 50vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+
+hr {
+    margin-top: -30px;
+    height: 5px;
+    background-color: #0000FF;
+    width: 90px;
+}
+
+.skills ul {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.skills ul li {
+    height: 70px;
+    line-height: 70px;
+    padding: 10px;
+    margin: 0 30px;
+    display: flex;
+    list-style: none;
+    /* border: 1px solid red; */
+}
+
+.skills ul li:hover {
+    cursor: pointer;
+}
+
+.skills ul li img {
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+    border: 1px solid #0000FF;
+    border-radius: 50%;
+    background-color: #0000FF;
+}
+
+
+/* css property for footer */
+
+#footer {
+    height: 50vh;
+    /* border: 1px so   lid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff7;
+    text-transform: capitalize;
+}
+
+.contact {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #011638; */
+}
+
+.contact ul {
+    list-style: none;
+    /* border: 1px solid red; */
+}
+
+.contact ul li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contact ul li img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.copyright {
+    height: 20%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #011638;
+}
+
+
+/* css property fpr the responsive website */
+
+@media screen and (min-width: 1920px) {
+    .navbar .nav-list ul li {
+        color: red;
+    }
+    .ellipse1 {
+        left: 1500px;
+        transition: 0.2s ease;
+    }
+    .ellipse2 {
+        left: 1720px;
+        transition: 0.2s ease;
+    }
+    .ellipse3 {
+        top: 200px;
+        left: 820px;
+        transition: 0.2s ease;
+    }
+}
+
+@media screen and (min-width: 2400px) {
+    .navbar .nav-list ul li {
+        color: red;
+    }
+    .ellipse1 {
+        left: 1920px;
+        transition: 0.2s ease;
+    }
+    .ellipse2 {
+        left: 2120px;
+        transition: 0.2s ease-in;
+    }
+    .ellipse3 {
+        top: 200px;
+        left: 1060px;
+        transition: 0.2s ease;
+    }
+}
+
+@media screen and (min-width: 2900px) {
+    .navbar .nav-list ul li {
+        color: red;
+    }
+    .ellipse1 {
+        left: 2400px;
+        transition: 0.2s ease;
+    }
+    .ellipse2 {
+        left: 2620px;
+        transition: 0.2s ease;
+    }
+    .ellipse3 {
+        top: 200px;
+        left: 1320px;
+        transition: 0.2s ease;
+    }
+}
+
+@media screen and (max-width: 1266px) {
+    .ellipse1 {
+        left: 950px;
+        transition: 0.2s ease;
+    }
+    .ellipse2 {
+        left: 1050px;
+        transition: 0.2s ease;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .ellipse1 {
+        visibility: hidden;
+    }
+    .ellipse2 {
+        visibility: hidden;
+    }
+    .ellipse3 {
+        left: 400px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .logo {
+        font-size: 17px;
+        margin-left: 80px;
+        height: 40px;
+        line-height: 40px;
+        padding: 8px;
+        /* border: 1px solid red; */
+    }
+    .navbar .nav-list .nav-item {
+        gap: 20px;
+        font-size: 17px;
+        padding: 8px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .ellipse3 {
+        left: 350px;
+    }
+    .main .image img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .ellipse3 {
+        visibility: hidden;
+    }
+}
+
+
+/* @media screen and (max-device-width:800px),
+screen and (max-width:800px) {
+    .logo {
+        font-size: 15px;
+    }
+    .navbar .nav-list .nav-item {
+        font-size: 15px;
+    }
+    .navbar .social-media .s-logos {
+        font-size: 15px;
+    }
+    .navbar .social-media .s-logos li img {
+        height: 25px;
+        width: 25px;
+    }
+} */
+
+@media screen and (max-device-width:800px),
+screen and (max-width:800px) {
+    .navbar {
+        position: relative;
+        height: 150px;
+        width: 100%;
+    }
+    .navbar .nav-list {
+        /* top: 150px; */
+        position: absolute;
+        /* border: 1px solid orange; */
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .navbar .nav-list .nav-item {
+        margin: 75px 0px;
+        padding: 20px 0px;
+        position: absolute;
+        /* border: 2px solid red; */
+        background-color: #011638;
+        transition: all 0.5s ease-in-out;
+        height: 200px;
+        margin-left: -100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-item .active {
+        margin-right: 0px;
+    }
+    .hambargermenu .hambargerline .bar {
+        /* margin-right: 60px; */
+        display: block;
+        visibility: visible;
+    }
+    .hambargermenu .social {
+        display: none;
+    }
+    .main {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main .image {
+        width: 100%;
+        border: 1px solid red;
+    }
+    .main .image img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        padding: 20px;
+        /* margin-top: 100px; */
+    }
+    .main .content {
+        width: 100%;
+        padding: 20px;
+        border: 1p solid red;
+        display: block;
+        text-align: center;
+    }
+    .btn {
+        margin: 40px 10px 10px 10px;
+        height: 40px;
+        width: 40%;
+        border-radius: 50px;
+        border: none;
+    }
+    .blogs {
+        height: 70vh;
+        width: 100%;
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+    .content2 {
+        /* margin-top: -220px; */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        /* border: 1px solid green; */
+    }
+    .content2 img {
+        height: 100px;
+        width: 100px;
+    }
+    .skills {
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .skills h2 {
+        /* border: 1px solid green; */
+    }
+    .skills ul {
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        /* border: 1px solid blue; */
+    }
+    .skills ul li {
+        /* border: 1px solid black; */
+        width: 100%;
+        padding: 0px;
+        height: 110px;
+        margin-left: 0;
+        margin: 10px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .skills ul li span {
+        visibility: hidden;
+        display: none;
+    }
+    .skills ul li img {
+        height: 100px;
+        width: 100px;
+    }
+    #footer .contact ul {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #footer .contact ul li {
+        /* border: 1px solid red; */
+        font-size: 15px;
+        width: 100%;
+    }
+    .copyright {
+        font-size: 15px;
+    }
+}
